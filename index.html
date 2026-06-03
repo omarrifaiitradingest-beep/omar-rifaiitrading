@@ -6,20 +6,147 @@
 <title>OMAR RIFAII TRADING EST</title>
 
 <style>
-body{margin:0;font-family:Arial,sans-serif;background:#090909;color:white}
-header{background:#111827;text-align:center;padding:25px}
-header h1{color:#d4af37;margin:0}
-header p{color:#ddd}
-.hero{text-align:center;padding:80px 20px;background:#111}
-.hero h2{color:#d4af37;font-size:32px}
-.about,.contact{padding:50px;text-align:center}
-.about img{width:600px;max-width:100%;border-radius:15px}
-.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;padding:50px}
-.product{background:#151515;padding:20px;border-radius:15px;text-align:center}
-.product img{width:100%;height:260px;object-fit:cover;border-radius:10px}
-.product h3{color:#d4af37}
-.btn{display:inline-block;background:#25D366;color:white;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:bold}
-footer{text-align:center;background:#111827;padding:25px;color:#ccc}
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#070707;
+    color:white;
+}
+
+header{
+    background:#0b0b0b;
+    text-align:center;
+    padding:25px 15px;
+    border-bottom:2px solid #d4af37;
+}
+
+header h1{
+    color:#d4af37;
+    margin:0;
+    font-size:34px;
+}
+
+header p{
+    margin:8px 0 0;
+    color:#ddd;
+    letter-spacing:2px;
+}
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(to bottom,#111,#070707);
+}
+
+.hero img{
+    width:850px;
+    max-width:100%;
+    border-radius:18px;
+    box-shadow:0 0 35px rgba(212,175,55,0.35);
+}
+
+.hero h2{
+    color:#d4af37;
+    font-size:34px;
+    margin-top:35px;
+}
+
+.hero p{
+    font-size:18px;
+    color:#eee;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    background:#25D366;
+    color:white;
+    padding:13px 25px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.about{
+    padding:55px 20px;
+    text-align:center;
+    max-width:1000px;
+    margin:auto;
+}
+
+.about h2,
+.products-title,
+.contact h2{
+    color:#d4af37;
+    font-size:32px;
+}
+
+.about p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+    padding:45px;
+}
+
+.product{
+    background:#151515;
+    padding:20px;
+    border-radius:18px;
+    text-align:center;
+    border:1px solid #2c2c2c;
+    box-shadow:0 0 18px rgba(0,0,0,0.5);
+}
+
+.product img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:12px;
+    background:#000;
+}
+
+.product h3{
+    color:#d4af37;
+    font-size:20px;
+    margin-top:15px;
+}
+
+.product p{
+    color:#ddd;
+    font-size:15px;
+}
+
+.contact{
+    text-align:center;
+    padding:55px 20px;
+    background:#101010;
+}
+
+.contact p{
+    font-size:18px;
+}
+
+footer{
+    background:#000;
+    text-align:center;
+    padding:25px;
+    color:#ccc;
+    border-top:1px solid #d4af37;
+}
+
+@media(max-width:700px){
+    header h1{font-size:26px}
+    .hero h2{font-size:26px}
+    .products{padding:25px}
+    .product img{height:220px}
+}
 </style>
 </head>
 
@@ -31,55 +158,69 @@ footer{text-align:center;background:#111827;padding:25px;color:#ccc}
 </header>
 
 <section class="hero">
+<img src="images/photo_2026-06-03_04-04-58.jpg" alt="OMAR RIFAII TRADING EST Logo">
 <h2>Premium Lubricants & Filtration Solutions</h2>
 <p>Official Distributor of R.OMAR German Technology Products</p>
+<a class="btn" href="https://wa.me/96171737344" target="_blank">Contact on WhatsApp</a>
 </section>
 
 <section class="about">
 <h2>About Us</h2>
-<img src="images/photo_2026-06-03_04-05-05.jpg" alt="Company Card">
 <p>
 OMAR RIFAII TRADING EST is a leading trading company specialized in automotive lubricants,
-filters, additives, and spare parts.
+filtration systems, automotive additives, spare parts, trade, industry, and contracting.
+</p>
+<p>
+We are committed to delivering premium quality products, reliable service,
+and long-term partnerships across Lebanon and international markets.
 </p>
 <p><b>Managing Director:</b> Mohamad Omar Rifai</p>
 </section>
 
+<h2 class="products-title" style="text-align:center;">Our Products</h2>
+
 <section class="products">
 
 <div class="product">
-<img src="images/photo_2026-06-03_04-04-46.jpg">
-<h3>Oil Filter Box</h3>
-</div>
-
-<div class="product">
-<img src="images/photo_2026-06-03_04-04-47.jpg">
-<h3>Oil, Fuel & Air Filters</h3>
-</div>
-
-<div class="product">
-<img src="images/photo_2026-06-03_04-04-48.jpg">
-<h3>20W-50 Semi Synthetic</h3>
-</div>
-
-<div class="product">
-<img src="images/photo_2026-06-03_04-04-48 (2).jpg">
-<h3>10W-40 High Performance</h3>
-</div>
-
-<div class="product">
-<img src="images/photo_2026-06-03_04-04-56.jpg">
-<h3>Additives & Cleaners</h3>
-</div>
-
-<div class="product">
-<img src="images/photo_2026-06-03_04-04-58.jpg">
+<img src="images/photo_2026-06-03_04-04-46.jpg" alt="DEX RED">
 <h3>DEX RED</h3>
+<p>Fully synthetic advanced formula motor oil.</p>
 </div>
 
 <div class="product">
-<img src="images/photo_2026-06-03_04-05-05.jpg">
-<h3>Company Profile</h3>
+<img src="images/photo_2026-06-03_04-04-47.jpg" alt="DEX WHITE">
+<h3>DEX WHITE</h3>
+<p>High performance fully synthetic motor oil.</p>
+</div>
+
+<div class="product">
+<img src="images/photo_2026-06-03_04-04-48.jpg" alt="10W-40">
+<h3>10W-40 High Performance</h3>
+<p>Premium motor oil for gasoline and diesel engines.</p>
+</div>
+
+<div class="product">
+<img src="images/photo_2026-06-03_04-05-05.jpg" alt="20W-50">
+<h3>20W-50 Semi Synthetic</h3>
+<p>Strong protection and excellent performance.</p>
+</div>
+
+<div class="product">
+<img src="images/photo_2026-06-03_04-04-48 (2).jpg" alt="Oil Filter Box">
+<h3>Oil Filter Box</h3>
+<p>Genuine parts packaging and filtration solutions.</p>
+</div>
+
+<div class="product">
+<img src="images/photo_2026-06-03_04-04-56.jpg" alt="Filters Collection">
+<h3>Oil, Fuel & Air Filters</h3>
+<p>Premium filtration products for engine protection.</p>
+</div>
+
+<div class="product">
+<img src="images/photo_2026-06-03_04-04-47 (2).jpg" alt="Additives and Cleaners">
+<h3>Additives & Cleaners</h3>
+<p>Power steering fluid, octane booster, injector cleaner, motor flush, rust remover, and more.</p>
 </div>
 
 </section>
@@ -91,12 +232,12 @@ filters, additives, and spare parts.
 <p><b>Office:</b> 06 434 377</p>
 <p><b>Email:</b> omarrifaiitradingest@gmail.com</p>
 <p><b>Location:</b> North Lebanon - Sahet Al Nour</p>
-
 <a class="btn" href="https://wa.me/96171737344" target="_blank">WhatsApp</a>
 </section>
 
 <footer>
-OMAR RIFAII TRADING EST
+OMAR RIFAII TRADING EST<br>
+Premium Lubricants & Filtration Solutions
 </footer>
 
 </body>
